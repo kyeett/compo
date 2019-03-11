@@ -14,6 +14,7 @@ type RigidBodyComponent struct {
 	Mass       float64
 	Drag       float64
 	UseGravity bool
+	Velocity   gfx.Vec
 }
 
 type KeyState int
